@@ -11967,6 +11967,308 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">fresh_val</span> <span class="o">=</span> <span class="mf">3127.75</span>
+<span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">Fresh</span> <span class="o">&lt;</span> <span class="n">fresh_val</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Fresh</th>
+      <th>Milk</th>
+      <th>Grocery</th>
+      <th>Frozen</th>
+      <th>Detergents_Paper</th>
+      <th>Delicatessen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>16</th>
+      <td>1020</td>
+      <td>8816</td>
+      <td>12121</td>
+      <td>134</td>
+      <td>4508</td>
+      <td>1080</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>2612</td>
+      <td>4339</td>
+      <td>3133</td>
+      <td>2088</td>
+      <td>820</td>
+      <td>985</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>1502</td>
+      <td>1979</td>
+      <td>2262</td>
+      <td>425</td>
+      <td>483</td>
+      <td>395</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>688</td>
+      <td>5491</td>
+      <td>11091</td>
+      <td>833</td>
+      <td>4239</td>
+      <td>436</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>630</td>
+      <td>11095</td>
+      <td>23998</td>
+      <td>787</td>
+      <td>9529</td>
+      <td>72</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">frozen_val1</span> <span class="o">=</span> <span class="mf">742.25</span>
+<span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">Frozen</span> <span class="o">&lt;</span> <span class="n">frozen_val1</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Fresh</th>
+      <th>Milk</th>
+      <th>Grocery</th>
+      <th>Frozen</th>
+      <th>Detergents_Paper</th>
+      <th>Delicatessen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>12669</td>
+      <td>9656</td>
+      <td>7561</td>
+      <td>214</td>
+      <td>2674</td>
+      <td>1338</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>9413</td>
+      <td>8259</td>
+      <td>5126</td>
+      <td>666</td>
+      <td>1795</td>
+      <td>1451</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>12126</td>
+      <td>3199</td>
+      <td>6975</td>
+      <td>480</td>
+      <td>3140</td>
+      <td>545</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>5963</td>
+      <td>3648</td>
+      <td>6192</td>
+      <td>425</td>
+      <td>1716</td>
+      <td>750</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>31714</td>
+      <td>12319</td>
+      <td>11757</td>
+      <td>287</td>
+      <td>3881</td>
+      <td>2931</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">frozen_val2</span> <span class="o">=</span> <span class="mf">3554.25</span>
+<span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">Frozen</span> <span class="o">&gt;</span> <span class="n">frozen_val2</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Fresh</th>
+      <th>Milk</th>
+      <th>Grocery</th>
+      <th>Frozen</th>
+      <th>Detergents_Paper</th>
+      <th>Delicatessen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>13265</td>
+      <td>1196</td>
+      <td>4221</td>
+      <td>6404</td>
+      <td>507</td>
+      <td>1788</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>22615</td>
+      <td>5410</td>
+      <td>7198</td>
+      <td>3915</td>
+      <td>1777</td>
+      <td>5185</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>3366</td>
+      <td>5403</td>
+      <td>12974</td>
+      <td>4400</td>
+      <td>5977</td>
+      <td>1744</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>31276</td>
+      <td>1917</td>
+      <td>4469</td>
+      <td>9408</td>
+      <td>2381</td>
+      <td>4334</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>26373</td>
+      <td>36423</td>
+      <td>22019</td>
+      <td>5154</td>
+      <td>4337</td>
+      <td>16523</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>29729</td>
+      <td>4786</td>
+      <td>7326</td>
+      <td>6130</td>
+      <td>361</td>
+      <td>1083</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>56159</td>
+      <td>555</td>
+      <td>902</td>
+      <td>10002</td>
+      <td>212</td>
+      <td>2916</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>43: Very low "Fresh" and very high "Grocery"</li>
+<li>12: Very low "Frozen" and very high "Fresh"</li>
+<li>39: Very high "Frozen" and very low "Detergens_Paper"</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Select three indices of your choice you wish to sample from the dataset</span>
 <span class="n">indices</span> <span class="o">=</span> <span class="p">[</span><span class="mi">43</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">39</span><span class="p">]</span>
 
@@ -12123,7 +12425,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.cross_validation</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -12223,7 +12525,7 @@ R^2 score for the target variable Delicatessen is -2.2547115372
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Produce a scatter matrix for each pair of features in the data</span>
@@ -14823,7 +15125,7 @@ KIqSMv8fleE3z1y+k70AAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Scale the data using the natural logarithm</span>
@@ -20433,7 +20735,7 @@ oiiKoiiKomQB2sijKIqiKIqiKIqiKIqSBfx/ntL30or4NpYAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display the log-transformed sample data</span>
@@ -20524,7 +20826,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">itertools</span>
@@ -21269,7 +21571,7 @@ New shape of data after removing duplicates:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Apply PCA by fitting the good data with the same number of dimensions as features</span>
@@ -21945,7 +22247,7 @@ iIiIiIiIiIT4P7qrsa29eEuDAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display sample log-data after having a PCA transformation applied</span>
@@ -22033,7 +22335,7 @@ iIiIiIiIiIT4P7qrsa29eEuDAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Apply PCA by fitting the good data with only two dimensions</span>
@@ -22067,7 +22369,7 @@ iIiIiIiIiIT4P7qrsa29eEuDAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display sample log-data after applying PCA transformation in two dimensions</span>
@@ -22134,7 +22436,7 @@ iIiIiIiIiIT4P7qrsa29eEuDAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Create a biplot</span>
@@ -22149,11 +22451,11 @@ iIiIiIiIiIT4P7qrsa29eEuDAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x10a1bf0d0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x109ac2ad0&gt;</pre>
 </div>
 
 </div>
@@ -25182,7 +25484,7 @@ AICe+f8ByxUmVkHYhv0AAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation:-Data-Recovery">Implementation: Data Recovery<a class="anchor-link" href="#Implementation:-Data-Recovery">&#182;</a></h3><p>Each cluster present in the visualization above has a central point. These centers (or means) are not specifically data points from the data, but rather the <em>averages</em> of all the data points predicted in the respective clusters. For the problem of creating customer segments, a cluster's center point corresponds to <em>the average customer of that segment</em>. Since the data is currently reduced in dimension and scaled by a logarithm, we can recover the representative customer spending from these data points by applying the inverse transformations.</p>
+<h2 id="Implementation:-Data-Recovery">Implementation: Data Recovery<a class="anchor-link" href="#Implementation:-Data-Recovery">&#182;</a></h2><p>Each cluster present in the visualization above has a central point. These centers (or means) are not specifically data points from the data, but rather the <em>averages</em> of all the data points predicted in the respective clusters. For the problem of creating customer segments, a cluster's center point corresponds to <em>the average customer of that segment</em>. Since the data is currently reduced in dimension and scaled by a logarithm, we can recover the representative customer spending from these data points by applying the inverse transformations.</p>
 <p>In the code block below, you will need to implement the following:</p>
 <ul>
 <li>Apply the inverse transform to <code>centers</code> using <code>pca.inverse_transform</code> and assign the new centers to <code>log_centers</code>.</li>
@@ -25612,6 +25914,7 @@ Sample point 2 predicted to be in Cluster 1
 <li>Since 'Fresh' and 'Frozen' products are highly perishable that needs to be bought daily on regular basis.</li>
 <li>So the customers in sigment 1 will have high impact on changing the delivery service from 5 to 3 days a week.</li>
 </ul>
+<p><strong>A/B Testing:</strong></p>
 <p>We can formalize the impact by running an experiment to determine which group of customers would have the greatest     impact.</p>
 <ol>
 <li>Randomly sample 4 groups where we sample 2 groups from each cluster.<ul>
